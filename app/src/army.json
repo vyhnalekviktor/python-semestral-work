@@ -1,0 +1,688 @@
+{
+  "space_marines_ops": [
+    {
+      "name": "space_marine_captain",
+      "team": "space_marines",
+      "apl": 3,
+      "move": 6,
+      "save": 3,
+      "wounds": 15,
+      "weapons": [
+        "plasma_pistol_standard",
+        "plasma_pistol_supercharge",
+        "power_fist"
+      ],
+      "abilities": [
+        "shock_assault"
+      ]
+    },
+    {
+      "name": "intercessor_sergeant",
+      "team": "space_marines",
+      "apl": 3,
+      "move": 6,
+      "save": 3,
+      "wounds": 15,
+      "weapons": [
+        "bolt_rifle1",
+        "fists"
+      ],
+      "abilities": [
+        "bolter_discipline"
+      ]
+    },
+    {
+      "name": "assault_intercessor_warrior",
+      "team": "space_marines",
+      "apl": 3,
+      "move": 6,
+      "save": 3,
+      "wounds": 14,
+      "weapons": [
+        "heavy_bolt_pistol",
+        "chainsword"
+      ],
+      "abilities": [
+        "shock_assault"
+      ]
+    },
+    {
+      "name": "eliminator_sniper",
+      "team": "space_marines",
+      "apl": 3,
+      "move": 7,
+      "save": 3,
+      "wounds": 12,
+      "weapons": [
+        "bolt_pistol",
+        "bolt_sniper_rifle_executioner",
+        "bolt_sniper_rifle_hyperfrag",
+        "bolt_sniper_rifle_mortis",
+        "fists"
+      ],
+      "abilities": []
+    },
+    {
+      "name": "heavy_intercessor_gunner",
+      "team": "space_marines",
+      "apl": 3,
+      "move": 4,
+      "save": 3,
+      "wounds": 18,
+      "weapons": [
+        "heavy_bolter_focused",
+        "heavy_bolter_sweeping",
+        "fists"
+      ],
+      "abilities": [
+        "bolter_discipline"
+      ]
+    },
+    {
+      "name": "intercessor_warrior1",
+      "team": "space_marines",
+      "apl": 3,
+      "move": 6,
+      "save": 3,
+      "wounds": 14,
+      "weapons": [
+        "auto_bolt_rifle",
+        "fists"
+      ],
+      "abilities": [
+        "bolter_discipline"
+      ]
+    },
+    {
+      "name": "intercessor_warrior2",
+      "team": "space_marines",
+      "apl": 3,
+      "move": 6,
+      "save": 3,
+      "wounds": 14,
+      "weapons": [
+        "bolt_rifle2",
+        "fists"
+      ],
+      "abilities": [
+        "bolter_discipline"
+      ]
+    }
+  ],
+  "space_marines_weapons": [
+    {
+      "name": "plasma_pistol_standard",
+      "ranged_type": "long",
+      "atk": 4,
+      "hit": 3,
+      "dmg": 4,
+      "crit": 6,
+      "max_range": 8,
+      "special_effects": [
+        "piercing_1"
+      ],
+      "operatives": [
+        "space_marine_captain"
+      ]
+    },
+    {
+      "name": "plasma_pistol_supercharge",
+      "ranged_type": "long",
+      "atk": 4,
+      "hit": 3,
+      "dmg": 5,
+      "crit": 6,
+      "max_range": 8,
+      "special_effects": [
+        "piercing_1",
+        "hot",
+        "lethal_5"
+      ],
+      "operatives": [
+        "space_marine_captain"
+      ]
+    },
+    {
+      "name": "power_fist",
+      "ranged_type": "short",
+      "atk": 5,
+      "hit": 3,
+      "dmg": 5,
+      "crit": 7,
+      "max_range": 1,
+      "special_effects": [
+        "brutal"
+      ],
+      "operatives": [
+        "space_marine_captain"
+      ]
+    },
+    {
+      "name": "bolt_rifle1",
+      "ranged_type": "long",
+      "atk": 4,
+      "hit": 2,
+      "dmg": 3,
+      "crit": 4,
+      "max_range": 6,
+      "special_effects": [
+        "piercing_crits_1"
+      ],
+      "operatives": [
+        "intercessor_sergeant"
+      ]
+    },
+    {
+      "name": "fists",
+      "ranged_type": "short",
+      "atk": 4,
+      "hit": 3,
+      "dmg": 3,
+      "crit": 4,
+      "max_range": 1,
+      "special_effects": [],
+      "operatives": [
+        "intercessor_sergeant",
+        "eliminator_sniper",
+        "heavy_intercessor_gunner",
+        "intercessor_warrior1",
+        "intercessor_warrior2"
+      ]
+    },
+    {
+      "name": "heavy_bolt_pistol",
+      "ranged_type": "long",
+      "atk": 4,
+      "hit": 3,
+      "dmg": 3,
+      "crit": 4,
+      "max_range": 8,
+      "special_effects": [
+        "piercing_crits_1"
+      ],
+      "operatives": [
+        "assault_intercessor_warrior"
+      ]
+    },
+    {
+      "name": "chainsword",
+      "ranged_type": "short",
+      "atk": 5,
+      "hit": 3,
+      "dmg": 4,
+      "crit": 5,
+      "max_range": 1,
+      "special_effects": [],
+      "operatives": [
+        "assault_intercessor_warrior"
+      ]
+    },
+    {
+      "name": "bolt_pistol",
+      "ranged_type": "long",
+      "atk": 4,
+      "hit": 3,
+      "dmg": 3,
+      "crit": 4,
+      "max_range": 8,
+      "special_effects": [],
+      "operatives": [
+        "eliminator_sniper"
+      ]
+    },
+    {
+      "name": "bolt_sniper_rifle_executioner",
+      "ranged_type": "long",
+      "atk": 4,
+      "hit": 2,
+      "dmg": 3,
+      "crit": 4,
+      "max_range": 6,
+      "special_effects": [
+        "heavy",
+        "saturate",
+        "silent",
+        "punishing"
+      ],
+      "operatives": [
+        "eliminator_sniper"
+      ]
+    },
+    {
+      "name": "bolt_sniper_rifle_hyperfrag",
+      "ranged_type": "long",
+      "atk": 4,
+      "hit": 2,
+      "dmg": 2,
+      "crit": 4,
+      "max_range": 6,
+      "special_effects": [
+        "blast_1",
+        "heavy",
+        "silent"
+      ],
+      "operatives": [
+        "eliminator_sniper"
+      ]
+    },
+    {
+      "name": "bolt_sniper_rifle_mortis",
+      "ranged_type": "long",
+      "atk": 4,
+      "hit": 2,
+      "dmg": 3,
+      "crit": 3,
+      "max_range": 6,
+      "special_effects": [
+        "devastating_3",
+        "heavy",
+        "piercing_1",
+        "silent"
+      ],
+      "operatives": [
+        "eliminator_sniper"
+      ]
+    },
+    {
+      "name": "heavy_bolter_focused",
+      "ranged_type": "long",
+      "atk": 5,
+      "hit": 3,
+      "dmg": 4,
+      "crit": 5,
+      "max_range": 6,
+      "special_effects": [
+        "piercing_crits_1"
+      ],
+      "operatives": [
+        "heavy_intercessor_gunner"
+      ]
+    },
+    {
+      "name": "heavy_bolter_sweeping",
+      "ranged_type": "long",
+      "atk": 5,
+      "hit": 3,
+      "dmg": 4,
+      "crit": 5,
+      "max_range": 6,
+      "special_effects": [
+        "piercing_crits_1",
+        "torrent_1"
+      ],
+      "operatives": [
+        "heavy_intercessor_gunner"
+      ]
+    },
+    {
+      "name": "auto_bolt_rifle",
+      "ranged_type": "long",
+      "atk": 4,
+      "hit": 3,
+      "dmg": 3,
+      "crit": 4,
+      "max_range": 6,
+      "special_effects": [
+        "torrent_1"
+      ],
+      "operatives": [
+        "intercessor_warrior1"
+      ]
+    },
+    {
+      "name": "bolt_rifle2",
+      "ranged_type": "long",
+      "atk": 4,
+      "hit": 3,
+      "dmg": 3,
+      "crit": 4,
+      "max_range": 6,
+      "special_effects": [
+        "piercing_crits_1"
+      ],
+      "operatives": [
+        "intercessor_warrior2"
+      ]
+    }
+  ],
+  "death_guard_ops": [
+    {
+      "name": "plague_marine_champion",
+      "team": "death_guard",
+      "apl": 3,
+      "move": 5,
+      "save": 3,
+      "wounds": 15,
+      "weapons": [
+        "plasma_pistol_standard",
+        "plasma_pistol_supercharge",
+        "plague_sword"
+      ],
+      "abilities": [
+        "disgustingly_resilient",
+        "shock_assault"
+      ]
+    },
+    {
+      "name": "malignant_plaguecaster",
+      "team": "death_guard",
+      "apl": 3,
+      "move": 5,
+      "save": 3,
+      "wounds": 14,
+      "weapons": [
+        "entropy",
+        "plague_wind",
+        "corrupted_staff"
+      ],
+      "abilities": [
+        "disgustingly_resilient",
+        "plaguecaster"
+      ]
+    },
+    {
+      "name": "plague_marine_bombardier",
+      "team": "death_guard",
+      "apl": 3,
+      "move": 5,
+      "save": 3,
+      "wounds": 14,
+      "weapons": [
+        "blight_grenade",
+        "bolt_gun",
+        "krak_grenade",
+        "fists"
+      ],
+      "abilities": [
+        "disgustingly_resilient",
+        "bombardier"
+      ]
+    },
+    {
+      "name": "plague_marine_fighter",
+      "team": "death_guard",
+      "apl": 3,
+      "move": 5,
+      "save": 3,
+      "wounds": 14,
+      "weapons": [
+        "flail_of_corruption"
+      ],
+      "abilities": [
+        "disgustingly_resilient",
+        "shock_assault"
+      ]
+    },
+    {
+      "name": "plague_marine_heavy_gunner",
+      "team": "death_guard",
+      "apl": 3,
+      "move": 5,
+      "save": 3,
+      "wounds": 14,
+      "weapons": [
+        "plague_spewer",
+        "fists"
+      ],
+      "abilities": [
+        "disgustingly_resilient"
+      ]
+    },
+    {
+      "name": "plague_marine_icon_bearer",
+      "team": "death_guard",
+      "apl": 3,
+      "move": 5,
+      "save": 3,
+      "wounds": 14,
+      "weapons": [
+        "bolt_pistol",
+        "plague_knife"
+      ],
+      "abilities": [
+        "disgustingly_resilient",
+        "icon_bearer"
+      ]
+    },
+    {
+      "name": "plague_marine_warrior",
+      "team": "death_guard",
+      "apl": 3,
+      "move": 5,
+      "save": 3,
+      "wounds": 14,
+      "weapons": [
+        "bolt_gun",
+        "plague_knife"
+      ],
+      "abilities": [
+        "disgustingly_resilient",
+        "bolter_discipline"
+      ]
+    }
+  ],
+  "death_guard_weapons": [
+    {
+      "name": "plasma_pistol_standard",
+      "ranged_type": "long",
+      "atk": 4,
+      "hit": 3,
+      "dmg": 4,
+      "crit": 6,
+      "max_range": 8,
+      "special_effects": [
+        "piercing_1"
+      ],
+      "operatives": [
+        "plague_marine_champion"
+      ]
+    },
+    {
+      "name": "plasma_pistol_supercharge",
+      "ranged_type": "long",
+      "atk": 4,
+      "hit": 3,
+      "dmg": 5,
+      "crit": 6,
+      "max_range": 8,
+      "special_effects": [
+        "piercing_1",
+        "hot",
+        "severe"
+      ],
+      "operatives": [
+        "plague_marine_champion"
+      ]
+    },
+    {
+      "name": "plague_sword",
+      "ranged_type": "short",
+      "atk": 5,
+      "hit": 3,
+      "dmg": 4,
+      "crit": 6,
+      "max_range": 1,
+      "special_effects": [
+        "severe"
+      ],
+      "operatives": [
+        "plague_marine_champion"
+      ]
+    },
+    {
+      "name": "entropy",
+      "ranged_type": "long",
+      "atk": 4,
+      "hit": 3,
+      "dmg": 3,
+      "crit": 7,
+      "max_range": 7,
+      "special_effects": [
+        "saturate",
+        "severe"
+      ],
+      "operatives": [
+        "malignant_plaguecaster"
+      ]
+    },
+    {
+      "name": "plague_wind",
+      "ranged_type": "long",
+      "atk": 6,
+      "hit": 3,
+      "dmg": 2,
+      "crit": 3,
+      "max_range": 6,
+      "special_effects": [
+        "saturate",
+        "severe",
+        "torrent_2"
+      ],
+      "operatives": [
+        "malignant_plaguecaster"
+      ]
+    },
+    {
+      "name": "corrupted_staff",
+      "ranged_type": "short",
+      "atk": 4,
+      "hit": 3,
+      "dmg": 3,
+      "crit": 5,
+      "max_range": 1,
+      "special_effects": [
+        "shock",
+        "stun",
+        "severe"
+      ],
+      "operatives": [
+        "malignant_plaguecaster"
+      ]
+    },
+    {
+      "name": "blight_grenade",
+      "ranged_type": "long",
+      "atk": 4,
+      "hit": 3,
+      "dmg": 2,
+      "crit": 4,
+      "max_range": 6,
+      "special_effects": [
+        "blast_2",
+        "limited_1",
+        "saturate",
+        "severe"
+      ],
+      "operatives": [
+        "plague_marine_bombardier"
+      ]
+    },
+    {
+      "name": "bolt_gun",
+      "ranged_type": "long",
+      "atk": 4,
+      "hit": 3,
+      "dmg": 3,
+      "crit": 4,
+      "max_range": 6,
+      "special_effects": [],
+      "operatives": [
+        "plague_marine_bombardier",
+        "plague_marine_warrior"
+      ]
+    },
+    {
+      "name": "krak_grenade",
+      "ranged_type": "long",
+      "atk": 4,
+      "hit": 3,
+      "dmg": 4,
+      "crit": 5,
+      "max_range": 6,
+      "special_effects": [
+        "piercing_1",
+        "saturate"
+      ],
+      "operatives": [
+        "plague_marine_bombardier"
+      ]
+    },
+    {
+      "name": "fists",
+      "ranged_type": "short",
+      "atk": 4,
+      "hit": 3,
+      "dmg": 3,
+      "crit": 4,
+      "max_range": 1,
+      "special_effects": [],
+      "operatives": [
+        "plague_marine_bombardier",
+        "plague_marine_heavy_gunner"
+      ]
+    },
+    {
+      "name": "flail_of_corruption",
+      "ranged_type": "short",
+      "atk": 5,
+      "hit": 3,
+      "dmg": 4,
+      "crit": 5,
+      "max_range": 1,
+      "special_effects": [
+        "brutal",
+        "severe",
+        "shock"
+      ],
+      "operatives": [
+        "plague_marine_fighter"
+      ]
+    },
+    {
+      "name": "plague_spewer",
+      "ranged_type": "long",
+      "atk": 5,
+      "hit": 2,
+      "dmg": 3,
+      "crit": 3,
+      "max_range": 8,
+      "special_effects": [
+        "torrent_2",
+        "saturate",
+        "severe"
+      ],
+      "operatives": [
+        "plague_marine_heavy_gunner"
+      ]
+    },
+    {
+      "name": "bolt_pistol",
+      "ranged_type": "long",
+      "atk": 4,
+      "hit": 3,
+      "dmg": 3,
+      "crit": 4,
+      "max_range": 8,
+      "special_effects": [],
+      "operatives": [
+        "plague_marine_icon_bearer"
+      ]
+    },
+    {
+      "name": "plague_knife",
+      "ranged_type": "short",
+      "atk": 5,
+      "hit": 3,
+      "dmg": 3,
+      "crit": 5,
+      "max_range": 1,
+      "special_effects": [
+        "severe"
+      ],
+      "operatives": [
+        "plague_marine_icon_bearer",
+        "plague_marine_warrior"
+      ]
+    }
+  ]
+}
